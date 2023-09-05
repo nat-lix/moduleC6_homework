@@ -1,0 +1,13 @@
+.btn {
+  cursor: pointer;
+  min-height: 25px;
+  padding-top: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  background: RGB(240, 200, 240);
+}
+
+
+

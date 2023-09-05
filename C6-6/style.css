@@ -1,0 +1,71 @@
+body {
+  font-family: OpenSans, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.btn {
+  margin: 10px 0 10px 5px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(100, 200, 220);
+  cursor: pointer;
+  border: none;
+  color: rgb(56, 55, 55);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.message-hist {
+    border: 2px solid silver;
+    height: 305px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message-send {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+    padding-left: 10px;
+    height: 35px;
+    width: 100%;
+    min-width: 100px;
+    font-size: large;
+    border: 2px solid silver;
+    color: rgb(48, 48, 48);
+}
+
+.message-wrap {
+    margin-top: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-txt {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    color: rgb(48, 48, 48);
+}
